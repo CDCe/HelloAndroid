@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/elearning" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center_vertical|center_horizontal|start"
+        android:layout_marginLeft="24sp"
+        android:layout_marginTop="16sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Udacity"
+        android:textColor="#01B4E0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center_vertical|center_horizontal|start"
+        android:layout_marginLeft="24sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="2465 Latham St"
+        android:textColor="#29363F"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center_vertical|center_horizontal|start"
+        android:layout_marginLeft="24sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Mountain View, CA 94043"
+        android:textColor="#01B4E0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center_vertical|center_horizontal|start"
+        android:layout_marginLeft="24sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="650-555-5555"
+        android:textColor="#29363F"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center_vertical|center_horizontal|start"
+        android:layout_marginLeft="24sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="www.udacity.com"
+        android:textColor="#01B4E0"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.5"
+        android:paddingBottom="16sp"
+        android:paddingTop="8sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/udacity" />
+
+</LinearLayout>
